@@ -8,7 +8,7 @@ import  java.sql.SQLException;
 public  class ConnFactory
 {   private static final String URL  =   "jdbc:mysql://localhost:3306/academia"; //Alterar de acordo com o seu local host
     private static final String USER =   "root";
-    private static final String PASS =   "usjt"; //Alterar para a senha criada
+    private static final String PASS =   "mysql"; //Alterar para a senha criada
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String ERROBD = "Erro na conexão com o Banco de Dados: "; 
 
